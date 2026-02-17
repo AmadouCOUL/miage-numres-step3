@@ -25,12 +25,29 @@ Pourquoi pas en dev : Pour garder le code lisible afin de faciliter le débogage
 
 # Q4 : Donner la tailles des fichiers générer par la commande.
 Réponse:
+dist/index.html                   0.46 kB │ gzip:  0.30 kB
+dist/assets/react-CHdo91hT.svg    4.13 kB │ gzip:  2.05 kB
+dist/assets/index-Ck_6z9u0.css    5.65 kB │ gzip:  1.40 kB
+dist/assets/index-DjOYzNxq.js   144.35 kB │ gzip: 46.39 kB
 
 # Q5: Quel est l'intérêt du HMR ?
 Réponse:
+Le HMR permet de mettre à jour le code de l'application en temps réel sans recharger la page entière.
 
 # Q6: Donner la tailles des fichiers générer par la commande. Pourquoi il faut être vigilant sur les libraires et autre composant qu'on ajoute dans nos applications d'un point de vue éco-responsable ?
 Réponse:
+dist/index.html                   0.46 kB │ gzip:  0.30 kB
+dist/assets/react-CHdo91hT.svg    4.13 kB │ gzip:  2.05 kB
+dist/assets/index-Ck_6z9u0.css    5.65 kB │ gzip:  1.40 kB
+dist/assets/index-CXkX2fal.js   157.22 kB │ gzip: 51.92 kB
+
+il faut être vigilant sur les librairies et autre composant qu'on ajoute dans nos applications d'un point de vue éco-responsable parce que :
+
+-Chaque librairie alourdit le fichier final, augmentant la consommation d'énergie nécessaire au transfert des données (Infrastructures réseau, 4G/5G).
+
+-Le JavaScript coûte cher : il doit être téléchargé, décompressé, analysé et exécuté. Un code lourd surcharge le processeur, fait chauffer l'appareil et vide la batterie plus rapidement.
+
+- Les applications inutilement lourdes fonctionnent mal sur les appareils anciens (3-4 ans), poussant les utilisateurs à renouveler leur matériel prématurément, ce qui génère des déchets électroniques.
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
 Réponse:
