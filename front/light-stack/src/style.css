@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;  
   background: purple;
@@ -21,36 +19,14 @@ body {
   font-size: 50px;
 }
 
-.topnav {
-  display:flex;
-  justify-content: center;
-  overflow: hidden;
-  background: purple;
-}
-
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  background: purple;
-  color: black;
-}
+/* Suppression de .topnav et .topnav a */
 
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 100%; /* Ajusté car plus de colonne droite */
 }
 
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: purple;
-  padding-left: 20px;
-}
+/* Suppression de .rightcolumn */
 
 .card {
   background-color: purple;
@@ -63,7 +39,6 @@ body {
   display: table;
   clear: both;
 }
-
 
 .footer {
   padding: 20px;
@@ -107,121 +82,3 @@ button:hover {
   background-color: #8f8d8d;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: purple;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: purple;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: purple;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: purple;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: purple;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: purple;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: purple;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: purple;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
-  background: #00aff0;
-  color: purple;
-}
-
-.fa-android {
-  background: #a4c639;
-  color: purple;
-}
-
-.fa-dribbble {
-  background: #ea4c89;
-  color: purple;
-}
-
-.fa-vimeo {
-  background: #45bbff;
-  color: purple;
-}
-
-.fa-tumblr {
-  background: #2c4762;
-  color: purple;
-}
-
-.fa-vine {
-  background: #00b489;
-  color: purple;
-}
-
-.fa-foursquare {
-  background: #45bbff;
-  color: purple;
-}
-
-.fa-stumbleupon {
-  background: #eb4924;
-  color: purple;
-}
-
-.fa-flickr {
-  background: #f40083;
-  color: purple;
-}
-
-.fa-yahoo {
-  background: #430297;
-  color: purple;
-}
-
-.fa-soundcloud {
-  background: #ff5500;
-  color: purple;
-}
-
-.fa-reddit {
-  background: #ff5700;
-  color: purple;
-}
-
-.fa-rss {
-  background: #ff6600;
-  color: purple;
-}

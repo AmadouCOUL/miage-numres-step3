@@ -85,18 +85,22 @@ Screen: 65
 
 # Q12:  Proposition 1
 Description:
-Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Mise en place du Lazy Loading et d'un Cache pour les questions/propositions. On remplace le chargement brutal de toute la base de données par un chargement unique des questions, et un chargement des propositions uniquement quand nécessaire.
+
+Nb de requête total du parcours de l'utilisateur: 6 requetes
+Taille total des requêtes du parcours de l'utilisateur:3.9 kB
+Taille total des fichiers généré : inchangé
 
 # Q13:  Proposition 2
-Description:
-Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Description: Suppression de l'animation GIF "question.gif" purement décorative et très lourde.
+
+Nb de requête total du parcours de l'utilisateur: 13 requetes
+Taille total des requêtes du parcours de l'utilisateur: 97 kB
+Taille total des fichiers généré : inchangé
 
 # Q14:  Proposition 3
-Description:
-Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers générés :
+Description: Retrait de la librairie externe FontAwesome (qui charge un CSS et une police d'écriture) et nettoyage du code CSS.
+
+Nb de requête total du parcours de l'utilisateur:11
+Taille total des requêtes du parcours de l'utilisateur: 13,4 kB
+Taille total des fichiers générés :1,5 kB
