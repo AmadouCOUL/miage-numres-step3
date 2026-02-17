@@ -11,5 +11,6 @@
     "github.copilot.inlineSuggest.enable": false,
     "inlineChat.enabled": false,
     "github.copilot.advanced.toolbar.visible": false,
-    "github.copilot.editor.enableCodeActions": false
+    "github.copilot.editor.enableCodeActions": false,
+    "java.compile.nullAnalysis.mode": "automatic"
 }
