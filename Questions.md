@@ -51,16 +51,32 @@ il faut être vigilant sur les librairies et autre composant qu'on ajoute dans n
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
 Réponse:
+dist/about/index.html          
+dist/index.html                
+dist/assets/style-b4SyXn9O.css  
+dist/assets/about-D08RWGIN.js 
+dist/assets/style-Dgd37vtf.js 
+dist/assets/main-QCVwn2m0.js 
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
 Réponse:
+-main-QCVwn2m0.js
+-style-Dgd37vtf.js
 
 # Q9 : Noter les nom des différents fichiers .js qui sont chargés au moment du changement de page.
 Réponse:
-
+about-D08RWGIN.js
+style-Dgd37vtf.js
 
 # Q10: Quel est l'intérêt de lu Code Splitting d'un point de vue éco-responsable ?
 Réponse:
+Le Code Splitting permet de ne charger que le code nécessaire à la page visitée.
+
+Réseau : Réduit la quantité de données téléchargées (économie de bande passante).
+
+Terminal : Réduit le travail du processeur pour analyser le code (économie de batterie).
+
+Cache : Optimise les mises à jour en ne retéléchargeant que les parties modifiées.
 
 
 # Q11: Ajouter le screen de votre score :
